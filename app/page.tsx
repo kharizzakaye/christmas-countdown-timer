@@ -4,7 +4,7 @@ import SnowfallComponent from "./components/SnowfallComponent";
 
 const Page = () => {
   return (
-    <main className="relative min-h-screen bg-linear-to-b from-blue-950  to-black overflow-hidden">
+    <main className="relative min-h-screen bg-linear-to-b from-[#ba0c0c]  to-[#5c0000] overflow-hidden">
       <SnowfallComponent />
 
       <div className="absolute inset-0 z-0"></div>
@@ -12,7 +12,7 @@ const Page = () => {
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 py-8">
         <header className="text-center mb-8 md:mb-12 flex text-3xl md:text-5xl lg:text-7xl ">
           <div className="hidden md:block">🎄</div>
-          <h1 className="font-bold text-yellow-300">Christmas Countdown</h1>
+          <h1 className="font-bold text-white">Christmas Countdown</h1>
           <div className="hidden md:block">🎄</div>
         </header>
 

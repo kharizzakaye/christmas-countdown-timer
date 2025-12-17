@@ -51,7 +51,7 @@ const CountdownTimerComponent = () => {
 
   if (!mounted || !timeLeft) {
     return (
-      <div className="backdrop-blur-lg border-4 border-yellow-400 rounded-3xl p-6 md:p-10 shadow-2xl h-32 md:h-40 flex items-center justify-center">
+      <div className="backdrop-blur-lg border-4 border-[#005c00] rounded-3xl p-6 md:p-10 shadow-2xl h-32 md:h-40 flex items-center justify-center">
         <div className="text-yellow-300 text-lg">Loading...</div>
       </div>
     );
@@ -60,7 +60,7 @@ const CountdownTimerComponent = () => {
   if (timeLeft.expired) {
     return (
       <div className="text-center backdrop-blur-lg p-10">
-        <h1 className="text-5xl md:text-8xl font-bold text-yellow-300 mb-4">
+        <h1 className="text-5xl md:text-8xl font-bold text-[#005c00] mb-4">
           Merry Christmas!
         </h1>
         <p className="text-xl lg:text-2xl text-white">
@@ -72,8 +72,8 @@ const CountdownTimerComponent = () => {
 
   const pad = (n: number) => String(n).padStart(2, "0");
   return (
-    <div className="backdrop-blur-lg border-4 border-yellow-400 rounded-3xl p-4 md:p-10 shadow-2xl">
-      <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
+    <div className="backdrop-blur-lg border-4 border-[#ecffeb] rounded-3xl p-4 md:p-10 shadow-2xl">
+      <div className="flex flex-col md:flex-row items-start justify-center gap-4 md:gap-8">
         <div className="flex flex-col items-center">
           <TimeUnit value={String(timeLeft.days)} label="Days" />
         </div>

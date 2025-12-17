@@ -48,7 +48,7 @@ const MusicPlayerComponent = () => {
         <div className="flex items-center gap-2">
           <button
             onClick={togglePlay}
-            className="flex items-center justify-center min-w-11 p-3 sm:p-4 rounded-full bg-linear-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 shadow-lg transform transition-all duration-200 text-white hover:scale-105 active:scale-95"
+            className="cursor-pointer flex items-center justify-center min-w-11 p-3 sm:p-4 rounded-full bg-linear-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 shadow-lg transform transition-all duration-200 text-white hover:scale-105 active:scale-95"
             aria-label={isPlaying ? "Pause" : "Play"}
           >
             <div className="text-lg sm:text-2xl">
@@ -86,13 +86,13 @@ const MusicPlayerComponent = () => {
                        [&::-webkit-slider-thumb]:w-4
                        [&::-webkit-slider-thumb]:h-4
                        [&::-webkit-slider-thumb]:rounded-full
-                       [&::-webkit-slider-thumb]:bg-red-600
+                       [&::-webkit-slider-thumb]:bg-white
                        [&::-webkit-slider-thumb]:cursor-pointer
                        [&::-webkit-slider-thumb]:shadow-lg
                        [&::-moz-range-thumb]:w-4
                        [&::-moz-range-thumb]:h-4
                        [&::-moz-range-thumb]:rounded-full
-                       [&::-moz-range-thumb]:bg-red-600
+                       [&::-moz-range-thumb]:bg-white
                        [&::-moz-range-thumb]:border-0
                        [&::-moz-range-thumb]:cursor-pointer"
             />
