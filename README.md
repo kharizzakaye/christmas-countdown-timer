@@ -1,3 +1,4 @@
 ## Christmas Countdown Timer
 
-<img width="1886" height="977" alt="image" src="https://github.com/user-attachments/assets/a745b9e9-b2ca-4c2d-8281-8f5c0661279f" />
+<img width="1891" height="972" alt="image" src="https://github.com/user-attachments/assets/fdd71f40-c9d1-4562-8313-538d24ea43e6" />
+
