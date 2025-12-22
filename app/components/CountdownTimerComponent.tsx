@@ -51,7 +51,7 @@ const CountdownTimerComponent = () => {
 
   if (!mounted || !timeLeft) {
     return (
-      <div className="backdrop-blur-lg border-4 border-[#005c00] rounded-3xl p-6 md:p-10 shadow-2xl h-32 md:h-40 flex items-center justify-center">
+      <div className="backdrop-blur-lg border-4 border-white rounded-3xl p-6 md:p-10 shadow-2xl h-32 md:h-40 flex items-center justify-center">
         <div className="text-yellow-300 text-lg">Loading...</div>
       </div>
     );

@@ -1,4 +1,4 @@
-"use client"; // if you're using Next.js App Router
+"use client";
 
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
@@ -24,7 +24,7 @@ export default function SantaAnimationComponent() {
         <motion.img
           src="assets/animated-santa-sleigh.gif" // your PNG file
           alt="Santa in sleigh"
-          className="fixed bottom-2/4 h-20 md:h-60 z-200" // Tailwind for size & position
+          className="fixed bottom-3/5 h-20 md:h-60 z-200" // Tailwind for size & position
           initial={{ x: "-1000px", y: 0, opacity: 1 }}
           animate={{
             x: "100vw", // fly across screen

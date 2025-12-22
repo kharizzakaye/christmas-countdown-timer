@@ -4,7 +4,7 @@ const SnowGroundComponent: React.FC = () => {
   return (
     <div className="fixed bottom-0 left-0 w-full">
       {/* Ground container */}
-      <div className="bg-linear-to-t from-white to-blue-100 h-20 sm:h-28 md:h-36 lg:h-40 w-full relative overflow-hidden shadow-inner">
+      <div className="bg-linear-to-t from-white to-blue-100 h-18 sm:h-26 md:h-34 lg:h-36 w-full relative overflow-hidden shadow-inner">
         {/* Organic snow shape using SVG */}
         <svg
           className="absolute bottom-0 left-0 w-full h-full"
