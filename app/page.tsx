@@ -1,11 +1,13 @@
 import CountdownTimerComponent from "./components/CountdownTimerComponent";
 import MusicPlayerComponent from "./components/MusicPlayerComponent";
 import SnowfallComponent from "./components/SnowfallComponent";
+import SnowflakesComponent from "./components/SnowflakeComponent";
 
 const Page = () => {
   return (
     <main className="relative min-h-screen bg-linear-to-b from-[#ba0c0c]  to-[#5c0000] overflow-hidden">
       <SnowfallComponent />
+      <SnowflakesComponent />
 
       <div className="absolute inset-0 z-0"></div>
 
