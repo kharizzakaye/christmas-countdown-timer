@@ -3,6 +3,7 @@ import MusicPlayerComponent from "./components/MusicPlayerComponent";
 import SantaAnimationComponent from "./components/SantaAnimationComponent";
 import SnowfallComponent from "./components/SnowfallComponent";
 import SnowflakesComponent from "./components/SnowflakeComponent";
+import SnowGroundComponent from "./components/SnowGroundComponent";
 
 const Page = () => {
   return (
@@ -26,6 +27,7 @@ const Page = () => {
       </div>
 
       <SantaAnimationComponent />
+      <SnowGroundComponent />
     </main>
   );
 };
