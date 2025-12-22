@@ -22,7 +22,7 @@ export default function SantaAnimationComponent() {
     <>
       {showSanta && (
         <motion.img
-          src="assets/santa-in-sleigh.png" // your PNG file
+          src="assets/animated-santa-sleigh.gif" // your PNG file
           alt="Santa in sleigh"
           className="fixed bottom-1/4 h-20 md:h-60 z-200" // Tailwind for size & position
           initial={{ x: "-1000px", y: 0, opacity: 1 }}
