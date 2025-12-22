@@ -1,5 +1,6 @@
 import CountdownTimerComponent from "./components/CountdownTimerComponent";
 import MusicPlayerComponent from "./components/MusicPlayerComponent";
+import SantaAnimationComponent from "./components/SantaAnimationComponent";
 import SnowfallComponent from "./components/SnowfallComponent";
 import SnowflakesComponent from "./components/SnowflakeComponent";
 
@@ -23,6 +24,8 @@ const Page = () => {
           <MusicPlayerComponent />
         </div>
       </div>
+
+      <SantaAnimationComponent />
     </main>
   );
 };
